@@ -1,6 +1,7 @@
 {
   "name": "pdf-signer",
   "version": "0.1.0",
+  "license": "MIT",
   "description": "Sign PDFs and photos of forms in the browser: typed, drawn, or photographed signatures, plus text and dates. Nothing leaves the device.",
   "type": "module",
   "exports": {
