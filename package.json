@@ -1,0 +1,35 @@
+{
+  "name": "pdf-signer",
+  "version": "0.1.0",
+  "description": "Sign PDFs and photos of forms in the browser: typed, drawn, or photographed signatures, plus text and dates. Nothing leaves the device.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./core": "./src/core/index.js",
+    "./styles.css": "./src/ui/styles.css",
+    "./fonts/*": "./fonts/*"
+  },
+  "files": [
+    "src",
+    "fonts"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "6.4.299"
+  },
+  "devDependencies": {
+    "vite": "8.3.4"
+  }
+}
